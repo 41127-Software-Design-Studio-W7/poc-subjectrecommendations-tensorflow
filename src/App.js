@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import { TF } from './Components/TF';
 
+/*
 function App() {
   return (
     <div className="App">
@@ -19,6 +21,13 @@ function App() {
         </a>
       </header>
     </div>
+  );
+}
+*/
+
+function App() {
+  return (
+    <TF/>
   );
 }
 
